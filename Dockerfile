@@ -1,7 +1,7 @@
-FROM node:lts-alpine
+FROM node:lts-slim
 
-RUN apk add --update \
-		autoconf \
-		g++ \
-		libtool \
-        automake
+# RUN apk add --update \
+# 		autoconf \
+# 		g++ \
+# 		libtool \
+#         automake
